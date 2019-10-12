@@ -1,0 +1,60 @@
+﻿RegexColumn,MessageColumn,SourceColumn
+([Ll]iterally|[Ss]eriously|[Tt]o be fair|[Tt]o be honest),Avoid conversational tone,Antioch Univ. Writing Center
+([Ii]mmoral|[Ww]rong|[Bb]ad|[Gg]ood|[Rr]idiculous|[Hh]orrible|[Tt]errible|[Ii]nsane|[Cc]razy),Avoid words that express value judgements,Antioch Univ. Writing Center
+([Aa]mazing|[Ff]ascinating|[Ww]ondrous|[Ww]onderful|[Gg]lorious|[Ff]antastic|[Ff]abulous|[Cc]ool|[Mm]agnificent|[Ss]hocking|[Uu]nbelievable|[Ii]ncredible),Avoid flowery language,Antioch Univ. Writing Center
+([Tt]he present study|[Cc]lose proximity|both alike|[Aa] total of),"Wordy phrase: ""the present study""",APA Pub Manual 3.08
+\b[Ss]?[Hh]e\b,Avoid gendered language if possible,APA Pub Manual 3.12
+\b(?:[Hh]is|[Hh]er)\b,Avoid gendered language if possible,APA Pub Manual 3.12
+(small in size|large in size),"Wordy phrase: "".. in size""",APA Pub Manual 3.12
+\b[Oo]pposite\s[Ss]ex\b,"Avoid the term ""opposite sex""",APA Pub Manual 3.12 
+[Hh]omosexual(?:s|ity)?,"Avoid the term ""homosexual""",APA Pub Manual 3.13
+[Aa]bsolutely essential,"Wordy phrase: ""the present study""",APA Pub Manual 3.13
+[Nn]egro(?:es)?,"Avoid the term ""negro""",APA Pub Manual 3.14
+[Aa]fro-American,"Avoid the term ""Afro-American""",APA Pub Manual 3.14
+[Bb]lack\s[Rr]ace,"Avoid the term ""Black Race""",APA Pub Manual 3.14
+[Ww]hite\s[Rr]ace,"Avoid the term ""White Race""",APA Pub Manual 3.14
+[Oo]riental\s,"Avoid the term ""Oriental""",APA Pub Manual 3.14
+[Cc]rippled?,"Avoid the term ""cripple""",APA Pub Manual 3.15
+[Ii]nvalids?,"Avoid the term ""invalid"" if referring to people",APA Pub Manual 3.15
+[Rr]etard(?:ed)?,"Avoid the term ""retarded"" if referring to people",APA Pub Manual 3.15
+[Ee]lderly,"Avoid the term ""elderly""",APA Pub Manual 3.16
+[Ss]enil(?:e|ity),"Avoid the term ""senile""",APA Pub Manual 3.16
+\bc\.d\.|\bc\.m\.|\bf\.t\.|\bh\.r\.|\bk\.g\.|\bl\.b\.|\bm\.l\.|\b[mun]\.g\.|\bm\.c\.g\.|\bmin\.|\bs\.,Avoid periods with measurement units except in.,APA Pub Manual 4.02
+\bi\.[vmp]\.|\bs\.[qcl]\.|\bi\.c\.v\.,Do not use periods with routes of administration,APA Pub Manual 4.02
+[^A-Za-z0-9]viz[^A-Za-z0-9\.],Proper abbreviation is viz. (with comma),APA Pub Manual 4.26
+[^A-Za-z0-9]etc[^A-Za-z0-9\.],Proper abbreviation is etc.,APA Pub Manual 4.26
+[^a-zA-Z0-9]et al[^a-zA-Z0-9.],Proper abbreviation is et al.,APA Pub Manual 6.12
+[^A-Za-z0-9]nd[^A-Za-z0-9],Proper abbreviation is n.d.,APA Pub Manual 6.22
+([Ee]-mail|[Ee]-book|[Ee]-reader),"Remove hyphenation for ""e-"" technologies",APA Style - 2019
+([Ss]mart [Pp]hone|[Ww]eb [Ss]ite|[Ww]eb [Pp]age|[Dd]ata [Bb]ase),Spell as a single word,APA Style - 2019
+[Ii]t\'s,Avoid Contractions,APA Style Blog - Dec. 2015
+[a-zA-Z]+n\'t,Avoid Contractions,APA Style Blog - Dec. 2015
+[a-zA-Z]+\'ll,Avoid Contractions,APA Style Blog - Dec. 2015
+[a-zA-Z]+\'ve,Avoid Contractions,APA Style Blog - Dec. 2015
+[a-zA-Z]+\'d,Avoid Contractions,APA Style Blog - Dec. 2015
+[a-zA-Z]+\'re,Avoid Contractions,APA Style Blog - Dec. 2015
+[Tt]hat\'s,Avoid Contractions,APA Style Blog - Dec. 2015
+"[A-Za-z0-9]+,\sthat","Possible nonrestrictive clause (use ""which"")",APA Style Blog - Jan. 2012
+[A-Za-z0-9]+\swhich,"Possible restrictive clause (use ""that"")",APA Style Blog - Jan. 2012
+([Ss]ince|[Ww]hile),"Restrict ""since"" and ""while"" to temporal sense",APA Style Blog - May 2011
+"cf\.,",Don't use commas after cf.,APA Style Blog - May. 2010
+c\.f\.,Proper abbreviation is cf. (no comma),APA Style Blog - May. 2010
+e\.g\.\s,Always use commas after e.g.,APA Style Blog - May. 2010
+[^A-Za-z0-9]eg[^A-Za-z0-9],Proper abbreviation is e.g. (with comma),APA Style Blog - May. 2010
+i\.e\.\s,Always use commas after i.e,APA Style Blog - May. 2010
+[^A-Za-z0-9]ie[^A-Za-z0-9],Proper abbreviation is i.e. (with comma),APA Style Blog - May. 2010
+"[0-9]{1,5}'s",Pluralize numbers without apostrophes,APA Style Blog - Nov. 2013
+[a-zA-Z]+ly-[a-zA-Z]+,"Adverbs ending in ""-ly"" don't need hyphenation",APA Style Blog - Nov. 2016
+([Mm]uch-[a-zA-Z]+|[Bb]etter-[a-zA-Z]+|[Ll]ess-[a-zA-Z]+|[Mm]ore-[a-zA-Z]+|[Hh]igher-[a-zA-Z]+|[Ll]esser-[a-zA-Z]+),Don't hyphenate comparative/superlative adjectives,APA Style Blog - Nov. 2016
+([Tt]he fact that|[Ff]or the purpose),May be wordy,APA Style Blog - Sept. 2015
+[Ii]n order (?:to|that),"Use of ""in order..."" may be wordy",APA Style Blog - Sept. 2015
+(?:[Ii]t is|[Ii]t's) (?:important|interesting),"Variations of ""it's important"" may be wordy",APA Style Blog - Sept. 2015
+([Oo]n the other hand|[Aa]t the end of the day),Avoid Cliches,PennState PubHub
+[Uu]sed to,"""Used to"" is wordy if used to make verbs past-tense",PennState PubHub
+([Ii]n terms of|[Ff]irst and foremost),Avoid introductory phrases,PennState PubHub
+(?:kind|sort|type) of,"Phrases like ""kind of"" can dilute writing",Purdue OWL - Eliminating Words
+[Ff]or all intents and purposes,"Wordy phrase: ""for all intents...""",Purdue OWL - Eliminating Words
+([Rr]eally|[Bb]asically|[Dd]efinitely|[Aa]ctually|[Gg]enerally),Potentially unnecessary word,Purdue OWL - Eliminating Words
+([Ff]uture plans|[Ss]udden crisis|[Uu]nusual in nature|[Ee]xtreme in degree|[Vv]arious differences),Possible redundant pair,Purdue OWL - Eliminating Words
+([Aa]t this moment in time|[Ee]veryday life|[Tt]hroughout history|[Ii]n this day and age|[Aa] level playing field|[Ii]n modern society|[Ii]n the final analysis),Avoid Cliches,University of Hull
+([Dd]uring the course of|[Cc]ontinue on|[Ss]till remains|[Aa]t the present) ,Wordy phrase,University of Hull
