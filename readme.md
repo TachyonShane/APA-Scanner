@@ -1,7 +1,7 @@
 ## APA Scanner
 
 ### Purpose
-apa_scanner.py uses Python regular expressions to find common writing errors related to the APA style, and scholarly writing in general. 
+apa_scanner.py uses Python regular expressions to find common writing errors related to the APA style and scholarly writing in general. 
 - By default, it will scan the document and print paragraph-by-paragraph feedback to the terminal. Upon reaching the references section, it will stop.
 - Compatible with .txt and .docx files
 - Summarized output can be saved to a text file using the `--output` parameter
