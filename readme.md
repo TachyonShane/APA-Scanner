@@ -26,10 +26,12 @@ Files included are apa_scanner.py (the script) and regex.csv (the text patterns)
 
 ### Example
 
-#### Terrible Input
+#### A Paragraph of Terrible Input
 
 ```
-It's interesting that a terrible attempted ERP rollout by HP definitely experienced several bad obstacles in close proximity, resulting in a massive impact on the company.  While the estimated monetary impact of the failed project was 160 million dollars, HP is generally doing sort of well (“When Bad Things Happen to Good Projects,” 2007). 
+It's interesting that a terrible attempted ERP rollout by HP definitely experienced several bad obstacles in close proximity,
+resulting in a massive impact on the company.  While the estimated monetary impact of the failed project was 160 million
+dollars, HP is generally doing sort of well (“When Bad Things Happen to Good Projects,” 2007). 
 ```
 
 #### Output
